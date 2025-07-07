@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peintures Lambert | Peinture en bâtiment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Curseur personnalisé -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Peintures<span>Lambert</span></a>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="/portfolio/">Revenir</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 data-scroll>Rénovation & Peinture</h1>
+                <p data-scroll>Qualité professionnelle pour votre intérieur et extérieur</p>
+                <a href="#contact" class="btn" data-scroll>Demander un devis</a>
+            </div>
+        </div>
+        <div class="hero-image" data-scroll>
+            <div class="image-wrapper">
+                <div class="image-inner" style="background-image: url('https://images.unsplash.com/photo-1600585152220-90363fe7e115?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1280&q=80')"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title" data-scroll>Nos Services</h2>
+            <div class="services-grid">
+                <div class="service-card" data-scroll>
+                    <div class="service-icon">
+                        <i class="fas fa-paint-roller"></i>
+                    </div>
+                    <h3>Peinture intérieure</h3>
+                    <p>Rénovation complète avec des produits haut de gamme</p>
+                </div>
+                <div class="service-card" data-scroll>
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Peinture extérieure</h3>
+                    <p>Protection et embellissement de votre façade</p>
+                </div>
+                <div class="service-card" data-scroll>
+                    <div class="service-icon">
+                        <i class="fas fa-brush"></i>
+                    </div>
+                    <h3>Finition décorative</h3>
+                    <p>Effets spéciaux et patines pour un rendu unique</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-scroll>Nos Réalisations</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-scroll>
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1600121848594-d8644e57abab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1280&q=80')"></div>
+                    <div class="project-info">
+                        <h3>Appartement moderne</h3>
+                        <p>Paris 16ème</p>
+                    </div>
+                </div>
+                <div class="project-card" data-scroll>
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1600566752227-8f3e7a1f1ec4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1280&q=80')"></div>
+                    <div class="project-info">
+                        <h3>Maison de campagne</h3>
+                        <p>Normandie</p>
+                    </div>
+                </div>
+                <div class="project-card" data-scroll>
+                    <div class="project-image" style="background-image: url('https://images.unsplash.com/photo-1600607688969-a5bfcd646154?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1280&q=80')"></div>
+                    <div class="project-info">
+                        <h3>Bureau contemporain</h3>
+                        <p>Lyon</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-scroll>Contactez-nous</h2>
+            <div class="contact-grid">
+                <div class="contact-info" data-scroll>
+                    <h3>Coordonnées</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 15 Rue des Artisans, 75000 Paris</p>
+                    <p><i class="fas fa-phone"></i> 01 23 45 67 89</p>
+                    <p><i class="fas fa-envelope"></i> contact@peintureslambert.fr</p>
+                </div>
+                <form class="contact-form" data-scroll>
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message"></textarea>
+                    </div>
+                    <button type="submit" class="btn">Envoyer</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Peintures<span>Lambert</span></a>
+                    <p>Peinture en bâtiment depuis 2005</p>
+                </div>
+                <div class="footer-social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Peintures Lambert. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
