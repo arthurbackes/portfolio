@@ -499,6 +499,27 @@ a {
     color: var(--text);
 }
 
+.footer-social {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-social a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(30, 30, 46, 0.7);
+    border-radius: 50%;
+    color: var(--light);
+    transition: all 0.3s ease;
+}
+
+.footer-social a:hover {
+    background-color: var(--secondary);
+    transform: translateY(-3px);
+}
 
 .footer-bottom {
     text-align: center;
